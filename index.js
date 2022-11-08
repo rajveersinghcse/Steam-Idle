@@ -1,6 +1,9 @@
 var acc_name = readLine("Please Enter your Steam User Name: ");
+
 var pass = readLine("Please Enter your Steam Password: ");
+
 var g_id = readInt("Please Enter the Game ID: ");
+
 const SteamUser = require('steam-user');
 
 const user = new SteamUser();
