@@ -15,7 +15,7 @@ user.logOn(logOnOptions);
 user.on('loggedOn', () => {
 	console.log(logOnOptions.accountName + ' -Successfully logged on');
 	user.setPersona(1);
-	user.gamesPlayed(g_id);
+	user.gamesPlayed([g_id]);
 });
 
 // You have to enter your account name, password and Game Id.
